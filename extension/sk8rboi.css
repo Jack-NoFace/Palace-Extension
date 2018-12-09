@@ -1,0 +1,10 @@
+.soldout {
+	opacity: 0.05;
+	transition: 0.4s opacity ease;
+}
+
+.soldout:active,
+.soldout:focus,
+.soldout:hover {
+	opacity: 1;
+}
